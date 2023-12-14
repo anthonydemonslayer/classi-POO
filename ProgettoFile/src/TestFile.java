@@ -9,8 +9,7 @@ public class TestFile {
 			System.out.println(file.getPath()); //prende il percorso
 			System.out.println(file.getAbsolutePath()); //prende il percorso assoluto
 			System.out.println(file.isFile()); //verifica se è un file
-			
-			
+
 		} else {
 			System.out.println("il file " + file + " non esiste");
 		}
